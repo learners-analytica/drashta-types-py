@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drashta-types-py"
+version = "0.1.0"
+description = "Pydantic Types for Drashta Python Services"
+authors = [{ name = "Shaunak Perni", email = "shaunakperni@icloud.com" }]
+license = { text = "LAFCL-1.0-ALv2" }
+dependencies = [
+    "pydantic"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/my_package"
+Documentation = "https://yourdocs.example.com"
+Repository = "https://github.com/yourusername/my_package"
+Issues = "https://github.com/yourusername/my_package/issues"
