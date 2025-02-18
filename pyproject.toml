@@ -1,13 +1,16 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools", "wheel", "python >= 3.12"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "drashta-types-py"
-version = "0.1.0"
+version = "0.2.0"
 description = "Pydantic Types for Drashta Python Services"
 authors = [{ name = "Shaunak Perni", email = "shaunakperni@icloud.com" }]
 license = { text = "LAFCL-1.0-ALv2" }
 dependencies = [
-    "pydantic"
+    "pydantic>=1.9.0,<2.0.0"
 ]
+
+# If you are using a README.md, you can include it as:
+readme = "README.md"  # Specifies the file for long_description (optional)
