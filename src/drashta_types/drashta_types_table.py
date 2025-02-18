@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from drashta_types_data import TDataSeries, TDataSeriesHead, TDataArray
+from .drashta_types_data import TDataSeries, TDataSeriesHead, TDataArray
 from typing import List
 
 class TTableHead(BaseModel):
