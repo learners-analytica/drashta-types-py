@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from typing import Any, List
 
-TDataArray = List[any]
+TDataArray = List[Any]
 
 TColumnNames = List[str]
 class TDataSeriesHead(BaseModel):

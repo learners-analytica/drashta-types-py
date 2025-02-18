@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "drashta-types-py"
-version = "1.0.0"
+version = "1.1.0"
 description = "Pydantic Types for Drashta Python Services"
 authors = [{ name = "Shaunak Perni", email = "shaunakperni@icloud.com" }]
 license = { text = "LAFCL-1.0-ALv2" }
