@@ -2,6 +2,8 @@ from pydantic import BaseModel
 from typing import Any, List
 
 TDataArray = List[any]
+
+TColumnNames = List[str]
 class TDataSeriesHead(BaseModel):
     column_name: str
     column_type: str
