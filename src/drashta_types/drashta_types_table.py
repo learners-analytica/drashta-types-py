@@ -13,4 +13,4 @@ class TTableMetaData(TTableHead):
     table_data_series: List[TDataSeries]
 
 class TTableData(TTableHead):
-    table_data_series: List[TDataArray]
+    table_data_series: TDataArray
