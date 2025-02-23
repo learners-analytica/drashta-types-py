@@ -6,4 +6,6 @@ TModelMetadata = {
     "estimator": str,
     "task": MLTaskTypes,
     "date": str,
+    "data": list[str],
+    "target":str
 }
