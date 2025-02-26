@@ -1,11 +1,13 @@
+from pydantic import BaseModel
 from .drashta_types_key import MLTaskTypes
 
-TModelMetadata = {
-    "id": str,
-    "name": str,
-    "estimator": str,
-    "task": MLTaskTypes,
-    "date": str,
-    "data": list[str],
-    "target":str
-}
+
+class TModelMetadata(BaseModel):
+    id: str
+    name: str
+    estimator: str
+    task: MLTaskTypes
+    date: str
+    data: list[str]
+    target: str
+
