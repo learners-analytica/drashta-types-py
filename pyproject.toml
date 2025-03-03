@@ -9,7 +9,7 @@ description = "Pydantic Types for Drashta Python Services"
 authors = [{ name = "Shaunak Perni", email = "shaunakperni@icloud.com" }]
 license = { text = "LAFCL-1.0-ALv2" }
 dependencies = [
-    "pydantic>=1.9.0,<2.0.0"
+    "pydantic>2.0.0"
 ]
 
 # If you are using a README.md, you can include it as:

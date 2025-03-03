@@ -1,3 +1,4 @@
+from pydantic import BaseModel
 from .drashta_types_key import MLTaskTypes
 from .drashta_types_data import TDataSeriesMinimal
 
