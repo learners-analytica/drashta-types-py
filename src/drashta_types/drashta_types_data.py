@@ -4,9 +4,10 @@ from typing import Any, List
 TDataArray = List[Any]
 
 TColumnNames = List[str]
-class TDataSeriesHead(BaseModel):
-    column_name: str
-    column_type: str
+class TDataSeriesMinimal(BaseModel):
+    column_name : str
+    column_type : str
+class TDataSeriesHead(TDataSeriesMinimal):
     column_is_key: bool
 
 class TDataSeriesMetadata(BaseModel):

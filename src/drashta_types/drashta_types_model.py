@@ -1,4 +1,5 @@
 from .drashta_types_key import MLTaskTypes
+from .drashta_types_data import TDataSeriesMinimal
 
 TModelMetadata = {
     "id": str,
@@ -6,6 +7,6 @@ TModelMetadata = {
     "estimator": str,
     "task": MLTaskTypes,
     "date": str,
-    "data": list[str],
+    "columns": list[TDataSeriesMinimal],
     "target":str
 }
