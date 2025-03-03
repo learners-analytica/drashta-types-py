@@ -2,7 +2,7 @@ from pydantic import BaseModel
 from .drashta_types_key import MLTaskTypes
 from .drashta_types_data import TDataSeriesMinimal
 
-class TModelMetadata:
+class TModelMetadata(BaseModel):
     id: str
     name: str
     estimator: str
