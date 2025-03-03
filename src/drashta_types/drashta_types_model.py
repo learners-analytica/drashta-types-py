@@ -9,4 +9,4 @@ class TModelMetadata(BaseModel):
     task: MLTaskTypes
     date: str
     columns: list[TDataSeriesMinimal]
-    target: str
+    target: list[TDataSeriesMinimal]
