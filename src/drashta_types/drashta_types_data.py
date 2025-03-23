@@ -15,6 +15,7 @@ class TDataSeriesMetadata(BaseModel):
     column_min: float
     column_max: float
     column_count: int
+    column_distinct : int
 
 class TDataSeriesRaw(BaseModel):
     column_name: str
