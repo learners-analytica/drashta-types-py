@@ -1,2 +1,2 @@
 # drashta-types-py
-Pydantic Types for Drashta Python Services
+Pydantic Types for Drashta Demo
